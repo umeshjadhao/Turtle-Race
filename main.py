@@ -7,6 +7,7 @@ screen = Screen()
 screen.setup(width=600, height=600)
 #screen.tracer(0)
 
+#listen to the user input
 screen.listen()
 player = Player()
 car_manager = CarManager()
