@@ -11,7 +11,7 @@ screen.setup(width=600, height=600)
 screen.listen()
 player = Player()
 car_manager = CarManager()
-
+#move the trutle up
 screen.onkey(player.move_up, "Up")
 
 is_game_on = False
