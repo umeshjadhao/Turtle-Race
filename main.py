@@ -4,6 +4,7 @@ from car_manager import CarManager
 import time
 
 screen = Screen()
+#Setting up screen size
 screen.setup(width=600, height=600)
 #screen.tracer(0)
 
